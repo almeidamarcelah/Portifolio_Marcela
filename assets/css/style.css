@@ -115,31 +115,48 @@ header {
 	background-size: cover;
 } */
 
-.titulo-secundario {
-	margin-top: 1.5rem;
-	text-align: center;
-	font-size: 30px;
+.div_introducao {
+	position: relative;
 }
-
-.div_introducao {}
 
 .imagem_espaco {
 	display: inline-block;
 	width: 79vw;
-	position: relative;
+}
+
+.introducao_nome {
+	position: absolute;
+	text-align: center;
+	font-size: 70px;
+	left: 60%;
+	top: 35%;
+	transform: translate(-30%, -70%);
+	font-family: 'Mea Culpa', cursive;
+	color: beige;
 }
 
 .introducao_dv {
 	position: absolute;
 	text-align: center;
-    color: rgb(87, 46, 46);
-    align-items: center;
-    justify-content: center;
-	margin-left: 30vw;
+	font-size: 22px;
+	left: 65%;
+	top: 42%;
+	transform: translate(-30%, -70%);
+	color: beige;
+}
+
+.titulo-secundario {
+	margin-top: 1.5rem;
+	margin-left: 2rem;
+	font-size: 30px;
+	font-family: 'Uchen', serif;
 }
 
 .sobre_autor {
 	margin: 2rem;
+	text-align:justify;
+	font-family: 'Bebas Neue', cursive;
+	font-size: 20px;
 }
 
 .mapa .titulo-mapa {
