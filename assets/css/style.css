@@ -29,9 +29,7 @@ body {
 
 main {
 	width: 79vw;
-	background-image: url("/assets/imagens/Nasa.jpeg");
-	background-repeat: no-repeat;
-	background-size: cover;
+	background-color: #ffebcd
 }
 
 .header {
