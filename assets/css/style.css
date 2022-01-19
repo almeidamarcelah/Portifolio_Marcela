@@ -127,6 +127,10 @@ header {
 	background-size: cover;
 } */
 
+.titulo_principal{
+	margin: 2rem;
+}
+
 .div_introducao {
 	position: relative;
 }
