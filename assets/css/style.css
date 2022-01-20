@@ -223,7 +223,17 @@ header {
 	font-weight: lighter;
 }
 
-
+*::-webkit-scrollbar {
+    width: 10px;
+}
+*::-webkit-scrollbar-thumb {
+	background-color: rgb(37, 15, 73);
+}
+*::-webkit-scrollbar-track {
+    width: 12px;
+    box-shadow: inset 0 0 0.3rem #00000050;
+    background-color: #fff;
+}
 
 .mapa .titulo-mapa {
 	margin: 0 0 1em;
