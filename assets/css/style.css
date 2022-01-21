@@ -111,7 +111,7 @@ header {
 	margin-left: 350px;
 } */
 
-.navegacao{
+.navegacao {
 	padding-left: 1rem;
 }
 
@@ -175,7 +175,6 @@ header {
 	margin-left: 2rem;
 	margin-top: 1.5rem;
 	font-size: 30px;
-	font-family: 'Uchen', serif;
 }
 
 .sobre_autor {
@@ -183,6 +182,7 @@ header {
 	/* text-align:justify; */
 	font-family: sans-serif;
 	font-size: 17px;
+	text-align: justify;
 }
 
 .desenvolvedora-perfil {
@@ -198,7 +198,6 @@ header {
 .titulo-dev {
 	margin-top: 2rem;
 	font-size: 30px;
-	font-family: 'Uchen', serif;
 }
 
 .topo {
@@ -224,16 +223,18 @@ header {
 }
 
 *::-webkit-scrollbar {
-    width: 10px;
+	width: 10px;
 }
+
 *::-webkit-scrollbar-thumb {
 	background-color: rgb(37, 15, 73);
 }
-*::-webkit-scrollbar-track {
+
+/* *::-webkit-scrollbar-track {
     width: 12px;
     box-shadow: inset 0 0 0.3rem #00000050;
     background-color: #fff;
-}
+} */
 
 .mapa .titulo-mapa {
 	margin: 0 0 1em;
